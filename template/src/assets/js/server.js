@@ -66,7 +66,6 @@ const request = (data, isShowLoading) => {
         switch (data.responseType) {
           case 'arraybuffer':
             return resolve(res)
-            break
           default:
             return resolve(res.data)
         }
