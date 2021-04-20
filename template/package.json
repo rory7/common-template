@@ -28,7 +28,7 @@
     "vue": "^2.6.0"{{#router}},
     "vue-router": "^3.0.1"{{/router}},
     "vue-sessionstorage": "^1.0.0",
-    "element-ui": "^2.13.2",
+    "element-ui": "^2.14.1",
     "@babel/polyfill": "^7.12.1",
     "axios": "^0.20.0"
   },
