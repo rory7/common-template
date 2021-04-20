@@ -8,6 +8,7 @@ import App from './App'
 import router from './router'
 {{/router}}
 import './assets/css/base.css'
+import './assets/js/elementJs.js'
 import VueSessionStorage from 'vue-sessionstorage'
 
 import loading from  './components/widget/loading'
