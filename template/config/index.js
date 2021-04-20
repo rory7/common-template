@@ -48,12 +48,14 @@ module.exports = {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
 
-    // Paths
-    assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+      // Paths
+      assetsRoot: path.resolve(__dirname, '../dist'),
+      assetsSubDirectory: 'static',
+      assetsPublicPath: '/',
+      assetsPublicPrePath: '/_stage/',//预发布环境地址
 
-    /**
+
+      /**
      * Source Maps
      */
 
