@@ -47,12 +47,14 @@ module.exports = {
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
+      preIndex: path.resolve(__dirname, '../dist/_stage/index.html'),
 
       // Paths
       assetsRoot: path.resolve(__dirname, '../dist'),
+      assetsPreRoot: path.resolve(__dirname, '../dist/_stage'),
       assetsSubDirectory: 'static',
       assetsPublicPath: '/',
-      assetsPublicPrePath: '/_stage/',//预发布环境地址
+      assetsPublicPrePath: '/_stage/',
 
 
       /**
